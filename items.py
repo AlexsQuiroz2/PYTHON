@@ -23,13 +23,11 @@ class item:
     def calculate_total_price(self):
          return self.price * self.quantity
 
-item1 = item("phone", 100, 1)
-
-    
+item1 = item("phone", 100, 1) 
 item2 = item("laptop", 1000, 3)
 
-'''print(item1.calculate_total_price())
-print(item2.calculate_total_price())'''
+print(item.__dict__) # All the atributes fo Class level
+print(item1.__dict__)# All the atributes fo instance level
 
 
 
